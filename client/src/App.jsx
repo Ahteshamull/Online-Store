@@ -1,16 +1,37 @@
 import React from 'react'
-import Marquee from "react-fast-marquee";
+
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+ 
+} from "react-router";
+import Layout from './layout/Layout';
+import Home from './pages/Home';
+import Shop from './pages/Shop';
+import Cart from './pages/Cart';
 
 export default function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <>
+        <Route>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />}></Route>
+            <Route path="/shop" element={<Shop />}></Route>
+            <Route path="/cart" element={<Cart />}></Route>
+          </Route>
+        </Route>
+      </>
+    )
+  );
+  
   return (
-    <div>
-      <div className="bg-[#22863A]  p-2 text-white text-center text-xl font-bold ">
-        <Marquee>
-          আমাদের যে কোন পণ্য অর্ডার করতে কল বা WhatsApp করুন: +88010000000 | হট
-          লাইন: 000000-0000
-        </Marquee>
-      </div>
-      <h1 className="text-3xl font-bold text-red-600 underline">Hello World</h1>
-    </div>
+    <>
+      <RouterProvider router={router} />
+       
+     
+    </>
   );
 }
