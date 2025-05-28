@@ -12,6 +12,9 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
+        <div>
+          <input type="text" placeholder="Search" className="input input-bordered" />
+        </div>
         <ul className="flex items-center justify-between gap-10 px-1">
           <li>
             <Link className="hover:text-blue-500 font-semibold  " to={"/cart"}>
