@@ -4,16 +4,25 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
-        <Link className=" text-xl">Online Store</Link>
+        <Link className="hover:text-blue-500 text-teal-500 font-bold text-2xl">
+          Online{" "}
+          <span className="hover:text-teal-500 text-blue-500 font-bold text-2xl">
+            Store
+          </span>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="flex items-center justify-between gap-10 px-1">
           <li>
-            <Link to={"/cart"}>Item 1</Link>
+            <Link className="hover:text-blue-500 font-semibold  " to={"/cart"}>
+              Cart
+            </Link>
           </li>
 
           <li>
-            <Link to={"/shop"}>Item 3</Link>
+            <Link className="hover:text-blue-500 font-semibold" to={"/shop"}>
+              Shop
+            </Link>
           </li>
         </ul>
       </div>
