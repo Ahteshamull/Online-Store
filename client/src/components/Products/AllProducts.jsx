@@ -8,6 +8,7 @@ export default function AllProducts() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
         odio!
       </h2>
+      <h3>lo</h3>
     </>
   );
 }
