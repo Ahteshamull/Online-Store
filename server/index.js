@@ -20,7 +20,7 @@ app.use(helmet({
 }))
 
 app.get("/", (req, res) => {
-    res.send("home route")
+    res.send("Server route")
 })
 app.use((req,res) => {
     res.status(404).send("404 Not Found")
