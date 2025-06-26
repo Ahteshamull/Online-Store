@@ -1,9 +1,12 @@
 import mongoose from "mongoose";
 const DbConnect = mongoose.connect(() => {
-    try {
-        
-    } catch (error) {
-        console.log("Server Error")
+    const data = gg
+  try {
+      if (!data) {
+        console.log(data)
     }
-}) 
-export default DbConnect
+  } catch (error) {
+    console.log("Server Error");
+  }
+});
+export default DbConnect;
