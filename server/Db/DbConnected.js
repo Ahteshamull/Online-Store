@@ -4,6 +4,8 @@ const DbConnect = mongoose.connect(() => {
   try {
       if (!data) {
         console.log(data)
+      } else {
+          console.log("no data")
     }
   } catch (error) {
     console.log("Server Error");
