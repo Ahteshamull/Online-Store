@@ -1,4 +1,4 @@
 import mongoose from "mongoose";
-const DbConnect = mongoose.connect(({
-    
-}))
+const DbConnect = mongoose.connect({
+
+})
