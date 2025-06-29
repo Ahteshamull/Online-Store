@@ -3,7 +3,7 @@ import React from 'react'
 export default function AllProducts() {
   return (
     <>
-      <div>AllProduct</div>
+      <div>AllProduct22</div>
       <h2>
         Lorem ipsum dolor consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus eaque error repudiandae porro veritatis, nobis facilis sint recusandae culpa amet enim quo quisquam dolor, ab numquam itaque expedita eveniet!,
       
