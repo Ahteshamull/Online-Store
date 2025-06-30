@@ -9,7 +9,7 @@ export default function AllProducts() {
       
       </h2>
       <div>
-        <h1>Lorem, ipsum dolor sit vbbcxbcxvvc amet cbxcvx fdasfdsa  xcbxcvxc  bxxvc consectetur adipisicing elit. Ad, necessitatibus?</h1>
+        <h1>Lorem, ipsum dolor sit vbbcxbcxvvc amet cbxcvx fdasfdsa    bxxvc consectetur adipisicing elit. Ad, necessitatibus?</h1>
       </div>
       <h3>Lorem ipsum dolor sit amet consectetur adipisicing . Ad repellendus odio maxime maiores debitis nemo odit hic dicta sapiente </h3>
     </>
