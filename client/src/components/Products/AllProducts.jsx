@@ -9,7 +9,7 @@ export default function AllProducts() {
       
       </h2>
       <div>
-        <h1>Lorem, ipsum dolor sit amet  elit. Ad,fdfd fdsfa dsfdsf necessitatibus?</h1>
+        <h1>Lorem, ipsum dolor sit amet  elit. Ad necessitatibus?</h1>
       </div>
       <h3>Lorem ipsum dolor sit amet dfdsfds Ad repellendus odio  maiores debitis nemo odit hic dicta sapiente </h3>
     </>
