@@ -9,7 +9,7 @@ export default function AllProducts() {
       
       </h2>
       <div>
-        <data value="dfd">dsfadfdfadsfad</data>
+        <data value="dfd">dsfadfdf</data>
       </div>
       <h3>Lorem ipsum dolor sit amet dfdsfds Ad repellendus odio  maiores debitis nemo odit hic dicta sapiente </h3>
     </>
