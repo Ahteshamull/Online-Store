@@ -11,7 +11,7 @@ export default function AllProducts() {
       <div>
 
       </div>
-      <h3>Lorem ipsum dolor sit ametdfdsfds Ad repellendus odio  maiores debitis nemo odit hic dicta sapiente </h3>
+      <h3>Lorem ipsum dolor sit am Ad repellendus odio  maiores debitis nemo odit hic dicta sapiente </h3>
     </>
   );
 }
