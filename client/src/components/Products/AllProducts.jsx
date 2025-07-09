@@ -5,7 +5,7 @@ export default function AllProducts() {
     <>
       <div>AllProduct22</div>
       <h2>
-        Lorem ipsum dolor conse elit  ipsum dolor sit amet elit. Ipsum minus eaque error repud porro veritatis, nobis facilis sint recusandae culpa amet enim quo quisquam dolor, ab numquam itaque expedita eveniet!,
+        Lorem ipsum dolor conse elit  ipsum dolor sit amet elit. Ipsum minus eaque error repud  veritatis, nobis facilis sint recusandae culpa amet enim quo quisquam dolor, ab numquam itaque expedita eveniet!,
       
       </h2>
       <div>
